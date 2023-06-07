@@ -1,11 +1,12 @@
 import React from "react";
 import {GiVolleyballBall} from 'react-icons/gi'
+import './footer.css';
 function Footer(){
     return(
         <>
             <div style={{display:'flex',flexDirection:'row',justifyContent:'space-around'}}>
             <div>
-                <a>dribble</a>
+                <h3 href="#dribbble" className="dribleicn" >dribbble</h3>
             </div>
             <div>
                 <h6>For designers</h6>
@@ -26,6 +27,11 @@ function Footer(){
                     <h7>Post a freelance project</h7>
                     <h7>Search for designers</h7>
                 </div>
+                <h6>Brands</h6>
+                {/* <div style={{display:'flex',flexDirection:'column'}}>
+                    <h7>Advertise with Us</h7>
+                    
+                </div> */}
                 
             </div>
             <div>
