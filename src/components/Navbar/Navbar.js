@@ -15,8 +15,8 @@ function ColorSchemesExample() {
             <Nav.Link href="#iring">Find Talent</Nav.Link>
             <Nav.Link href="#for-designers">For designers</Nav.Link>
             <Nav.Link href="#shots">Inspiration</Nav.Link>
-            <Nav.Link href="learn">Learn design</Nav.Link>
-            <Nav.Link href="go-pro" className='gobtn'>Go Pro</Nav.Link>
+            <Nav.Link href="#learn">Learn design</Nav.Link>
+            <Nav.Link href="#go-pro" className='gobtn'>Go Pro</Nav.Link>
             <div style={{width:'20%',display:'flex',flexDirection:'row',marginLeft:'20%',marginTop:'15px'}}>
                 <div className="search-bar" style={{marginLeft:'20px',borderRadius:'50%'}}>
                     <input type="text" placeholder="Search" />
